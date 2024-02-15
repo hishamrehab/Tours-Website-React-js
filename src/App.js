@@ -7,6 +7,9 @@ import About from "./components/About";
 import Services from "./components/services";
 import Tours from "./components/Tours";
 import Footer from "./components/Footer";
+import PlacesReview from "./components/PlacesReview";
+import PopularDestionations from "./components/PopularDestionations";
+import Teams from "./components/Teams";
 
 function App() {
   return (
@@ -14,8 +17,11 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <PlacesReview />
       <Services />
       <Tours />
+      <PopularDestionations />
+      <Teams />
       <Footer />
     </>
   );
