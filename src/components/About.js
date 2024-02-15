@@ -1,10 +1,13 @@
 import React from "react";
 import aboutImg from "../images/palce3.jpg";
+import { Container } from "react-bootstrap";
 
 
 const About = () => {
   return (
     <section className="section about-section" id="about">
+
+    
       <h1 className="about-section-header section-header">AboutUs</h1>
 
       <div className="section-center about-center">

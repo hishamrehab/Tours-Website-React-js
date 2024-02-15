@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import Navbar from "./components/navbar";
+import Navbar from "./components/navbar/navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/services";
@@ -15,13 +15,14 @@ function App() {
   return (
     <>
       <Navbar />
+
       <Hero />
       <About />
       <PlacesReview />
       <Services />
       <FatureTours />
       <PopularDestionations />
-     <Teams />
+      <Teams />
       <Footer />
     </>
   );
