@@ -22,40 +22,37 @@ const Teams = () => {
       >
         Tours give you the opportunity to see a lot,within a time frame
       </p>
-      {teams.map((service) => {
+      {teams.map((team) => {
         return (
           <div className="teams-section">
-          
             <div className="teams-content">
               <div>
-                <img src={service.image1} alt="" className="teams-image" />
-                <h4>{service.name1}</h4>
+                <img src={team.image1} alt="" className="teams-image" />
+                <h4 className="team-name">{team.name1}</h4>
               </div>
               <div>
-                <p>{service.desc1}</p>
+                <p className="team-desc">{team.desc1}</p>
+              </div>
+            </div>
+            <div className="teams-content">
+              <div>
+                <img src={team.image2} alt="" className="teams-image" />
+                <h4 className="team-name">{team.name2}</h4>
+              </div>
+              <div>
+                <p className="team-desc">{team.desc2}</p>
               </div>
             </div>
 
             <div className="teams-content">
               <div>
-                <img src={service.image2} alt="" className="teams-image" />
-                <h4>{service.name2}</h4>
+                <img src={team.image3} alt="" className="teams-image" />
+                <h4 className="team-name">{team.name3}</h4>
               </div>
               <div>
-                <p>{service.desc2}</p>
+                <p className="team-desc">{team.desc2}</p>
               </div>
             </div>
-
-            <div className="teams-content">
-              <div>
-                <img src={service.image3} alt="" className="teams-image" />
-                <h4>{service.name3}</h4>
-              </div>
-              <div>
-                <p>{service.desc3}</p>
-              </div>
-            </div>
-            
           </div>
         );
       })}

@@ -21,7 +21,7 @@ function App() {
       <Services />
       <FatureTours />
       <PopularDestionations />
-      <Teams />
+     <Teams />
       <Footer />
     </>
   );

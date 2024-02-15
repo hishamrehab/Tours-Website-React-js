@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../images/Logo.png";
+import logo from "../images/nav-logo.jpg";
 import { socialLinks, pageLinks } from "../data";
 import SocialLinks from "./SocialLinks";
 import PageLinks from "./PageLinks";
