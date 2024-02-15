@@ -75,7 +75,6 @@ export const services = [
   },
 ];
 
-
 // places Section
 export const places = [
   {
@@ -228,7 +227,6 @@ export const places = [
   },
 ];
 
-
 export const tours = [
   {
     id: 1,
@@ -312,20 +310,20 @@ export const destionations = [
 ];
 
 // our Team
-export const team = [
+export const teams = [
   {
-    name: "Danny S.",
-    image: person1,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!",
+    name1: "Danny S.",
+    image1: person1,
+    desc1: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!",
   },
   {
-    name: "Jonathan M.",
-    image: person2,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!",
+    name2: "Jonathan M.",
+    image2: person2,
+    desc2: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!",
   },
   {
-    name: "Chloe P.",
-    image: person3,
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!",
+    name3: "Chloe P.",
+    image3: person3,
+    desc3: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!",
   },
 ];
