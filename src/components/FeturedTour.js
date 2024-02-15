@@ -1,6 +1,14 @@
-import React from 'react';
-import { tours } from '../data';
-const Tour = ({image, date, title, info, location, duration, cost}) => {
+import React from "react";
+import { tours } from "../data";
+const FeturedTour = ({
+  image,
+  date,
+  title,
+  info,
+  location,
+  duration,
+  cost,
+}) => {
   return (
     <article className="tour-card">
       <div className="tour-img-container">
@@ -27,4 +35,4 @@ const Tour = ({image, date, title, info, location, duration, cost}) => {
   );
 };
 
-export default Tour;
+export default FeturedTour;

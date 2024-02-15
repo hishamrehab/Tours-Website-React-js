@@ -5,7 +5,7 @@ import Navbar from "./components/navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 import Services from "./components/services";
-import Tours from "./components/Tours";
+import FatureTours from "./components/FaturedTours";
 import Footer from "./components/Footer";
 import PlacesReview from "./components/PlacesReview";
 import PopularDestionations from "./components/PopularDestionations";
@@ -19,7 +19,7 @@ function App() {
       <About />
       <PlacesReview />
       <Services />
-      <Tours />
+      <FatureTours />
       <PopularDestionations />
       <Teams />
       <Footer />

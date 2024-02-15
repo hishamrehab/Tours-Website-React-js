@@ -72,7 +72,6 @@ a {
   margin-bottom: 50px;
 }
 
-
 /*
 =============== 
 Navbar
@@ -292,7 +291,6 @@ HeroSection
   margin-top: 10px;
 }
 
-
 @media screen and (min-width: 992px) {
   .about-center {
     display: grid;
@@ -315,7 +313,6 @@ HeroSection
     box-sizing: border-box;
     top: -1.5rem;
     left: -1.5rem;
- 
   }
 
   .about-img {
@@ -330,21 +327,9 @@ HeroSection
 /* ./About Section*/
 
 /* PlacesReview */
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0;
-}
-
-.column {
-  flex: 100%;
+.places-review-column img {
   width: 100%;
-  gap: 0;
-}
-
-.column img {
-  width: 100%;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 800px) {
@@ -360,4 +345,208 @@ HeroSection
     max-width: 100%;
   }
 }
+/* ./ PlacesReview */
 
+/*
+=============== 
+Services
+===============
+*/
+
+.services {
+  background: var();
+  background-image: url("./images/images\ \(1\).jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 350px;
+}
+
+.service {
+  display: flex;
+}
+.main-services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  position: absolute;
+}
+.service-icon {
+  color: #e78895;
+  padding: 0.5rem;
+  display: inline-block;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  margin-left: 2rem;
+}
+.service-title {
+  font-size: 25px;
+  color: #102b25;
+}
+.service-text {
+  max-width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 17px;
+}
+
+@media screen and (min-width: 576px) {
+  .services-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .service {
+    margin-bottom: 0rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .services-center {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1170px) {
+  .service {
+    display: flex;
+    text-align: left;
+  }
+  .service-icon {
+    align-self: start;
+  }
+  .service-info {
+    padding-left: 1rem;
+  }
+  .service-title {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* .populardestionations {
+} */
+/*
+=============== 
+Featured Tours
+===============
+*/
+
+.tour-card {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  border: 1px solid slategray;
+}
+.tour-card:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+}
+.tour-img-container {
+  position: relative;
+}
+.tour-img {
+  height: 15rem;
+  width: 100%;
+}
+.tour-date {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background: var(--secondColor);
+  color: var(--sectionColorDescription);
+  text-transform: capitalize;
+  padding: 0.25rem 0.5rem;
+  margin-bottom: 0;
+}
+.tour-info {
+  padding: 1.25rem 1.5rem;
+}
+
+.tour-title {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 20px;
+  color: #cc9ca4;
+}
+.tour-title p,
+.tour-title h4 {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+.tour-title p {
+  color: #cec7c8;
+}
+
+.tour-footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.tour-footer p {
+  line-height: 0;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  color: #8cb9bd;
+  margin-top: 10px;
+  font-size: 15px;
+}
+.tour-footer p span {
+  margin-right: 0.25rem;
+}
+.tour-btn {
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .featured-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+}
+@media screen and (min-width: 1170px) {
+  .featured-center {
+    width: 90%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/*
+=============== 
+Footer
+===============
+*/
+
+.footer {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.footer-links,
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+.footer-link {
+  color: var(--mainColor);
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.footer-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: var(--mainColor);
+}
+.footer-icon:hover {
+  color: var(--iconHover);
+}
+.copyright {
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  color: #98e0f1;
+}
+.copyright span {
+  margin-left: 0.5rem;
+}

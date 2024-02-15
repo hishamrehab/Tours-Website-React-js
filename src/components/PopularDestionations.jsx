@@ -13,7 +13,7 @@ const PopularDestionations = () => {
         marginLeft: "5%",
       }}
     >
-      <Title title="Our" subTitle="Team" />
+      <h1 className="section-header popular-header">Popular Destionations</h1>
       <p
         style={{
           textAlign: "center",

@@ -1,6 +1,6 @@
 import React from "react";
 import { places } from "../data";
-import Title from "./Title";
+
 
 const PlacesReview = () => {
   return (
@@ -9,9 +9,9 @@ const PlacesReview = () => {
       <div className="section-center about-center">
         {places.map((place) => {
           return (
-            <div className="row">
-              <div className="column">
-                <img src={place.image} height={"400px"} />
+            <div className="places-review-row">
+              <div className="places-review-column">
+                <img src={place.image} height={"350px"} />
               </div>
             </div>
           );
