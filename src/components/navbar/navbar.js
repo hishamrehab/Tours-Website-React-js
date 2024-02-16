@@ -12,7 +12,6 @@ import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 
-import logo from "../../images/nav-logo.jpg";
 const pages = [
   "Home",
   "About",
@@ -37,78 +36,46 @@ function Navbar() {
     <AppBar
       position="static"
       sx={{
-        height: "70px",
+        height: "60px",
         backgroundColor: "#5e5d5a",
       }}
     >
       <Container>
         <Toolbar
           sx={{
-            height: "70px",
+            height: "60px",
           }}
         >
           <Box
             className="nav-header"
+            component="a"
             href="#"
             sx={{
-              mr: 2,
-              width: "150px",
-              height: "70px",
+              fontSize: "30px",
+              color: "#C7C8CC",
             }}
           >
-            <a href="#">
-              <img
-                src={logo}
-                className="nav-logo"
-                alt="landingPage"
-                style={{
-                  width: "100%",
-                  height: "100%",
+            LandingPage
+          </Box>
+
+          <Box
+            sx={{
+              flexGrow: "1",
+            }}
+          ></Box>
+
+          <Box sx={{ display: { xs: "flex", md: "none" } }}>
+            <Box flexGrow={1}></Box>
+
+            <IconButton onClick={handleOpenNavMenu} color="inherit">
+              <MenuIcon
+                sx={{
+                  fontSize: "30px",
                 }}
               />
-            </a>
-          </Box>
-
-          <Box
-            sx={{
-              flexGrow: "1",
-            }}
-          ></Box>
-          <Box sx={{ display: { xs: "flex", md: "none" } }}>
-            <IconButton onClick={handleOpenNavMenu} color="inherit">
-              <MenuIcon />
             </IconButton>
-            <Menu
-              id="menu-appbar"
-              anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical: "bottom",
-                horizontal: "left",
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: "top",
-                horizontal: "left",
-              }}
-              open={Boolean(anchorElNav)}
-              onClose={handleCloseNavMenu}
-              sx={{
-                display: { xs: "block", md: "none" },
-              }}
-            >
-              {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
-                </MenuItem>
-              ))}
-            </Menu>
           </Box>
 
-          <Box
-            sx={{
-              flexGrow: "1",
-            }}
-          ></Box>
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
             {pages.map((page) => (
               <Button

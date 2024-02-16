@@ -10,12 +10,11 @@ import Footer from "./components/Footer";
 import PlacesReview from "./components/PlacesReview";
 import PopularDestionations from "./components/PopularDestionations";
 import Teams from "./components/Teams";
-
 function App() {
   return (
     <>
-      <Navbar />
-
+      
+     <Navbar />
       <Hero />
       <About />
       <PlacesReview />
