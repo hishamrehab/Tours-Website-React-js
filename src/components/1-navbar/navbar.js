@@ -13,8 +13,6 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 
 const pages = [
- 
-
   "Home",
 
   "About",
@@ -23,7 +21,7 @@ const pages = [
   "FeaturedTours",
   "Popular Destionations",
   "OurTeam",
-  "Footer"
+  "Footer",
 ];
 
 function Navbar() {
@@ -31,9 +29,6 @@ function Navbar() {
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
-  };
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
   };
 
   return (
@@ -80,24 +75,71 @@ function Navbar() {
             </IconButton>
           </Box>
 
-          <Box sx={{ display: { xs: "none", md: "flex" } }}>
-            {/* {pages.map((page) => (
-              <Button
-                key={page}
-                onClick={handleCloseNavMenu}
-                sx={{ color: "white", display: "block" }}
-              >
-                {page[0]}
-              </Button>
-            ))} */}
-            <Button>{pages[0]}</Button>
-            <Button>{pages[1]}</Button>
-            <Button>{pages[2]}</Button>
-            <Button>{pages[3]}</Button>
-            <Button>{pages[4]}</Button>
-            <Button>{pages[5]}</Button>
-            <Button>{pages[6]}</Button>
-            <Button>{pages[7]}</Button>
+          <Box sx={{ display: { xs: "none", md: "flex" }, color: "white" }}>
+            <Button
+              sx={{
+                color: "white",
+              }}
+              href="#home"
+            >
+              {pages[0]}
+            </Button>
+            <Button
+              sx={{
+                color: "white",
+              }}
+              href="#about"
+            >
+              {pages[1]}
+            </Button>
+            <Button
+              sx={{
+                color: "white",
+              }}
+              href="#placesReview"
+            >
+              {pages[2]}
+            </Button>
+            <Button
+              sx={{
+                color: "white",
+              }}
+              href="#services"
+            >
+              {pages[3]}
+            </Button>
+            <Button
+              sx={{
+                color: "white",
+              }}
+              href="#tours"
+            >
+              {pages[4]}
+            </Button>
+            <Button
+              sx={{
+                color: "white",
+              }}
+              href="#PopularDestination"
+            >
+              {pages[5]}
+            </Button>
+            <Button
+              sx={{
+                color: "white",
+              }}
+              href="#team"
+            >
+              {pages[6]}
+            </Button>
+            <Button
+              sx={{
+                color: "white",
+              }}
+              href="#footer"
+            >
+              {pages[7]}
+            </Button>
           </Box>
         </Toolbar>
       </Container>

@@ -5,7 +5,7 @@ const Teams = () => {
   return (
     <section
       className="section teams"
-      id="teams"
+      id="team"
       style={{
         width: "90%",
         marginRight: "5%",
