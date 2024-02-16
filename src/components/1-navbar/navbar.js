@@ -13,13 +13,17 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 
 const pages = [
+ 
+
   "Home",
+
   "About",
   "PlacesReview",
   "Services",
   "FeaturedTours",
   "Popular Destionations",
   "OurTeam",
+  "Footer"
 ];
 
 function Navbar() {
@@ -77,15 +81,23 @@ function Navbar() {
           </Box>
 
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
-            {pages.map((page) => (
+            {/* {pages.map((page) => (
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
                 sx={{ color: "white", display: "block" }}
               >
-                {page}
+                {page[0]}
               </Button>
-            ))}
+            ))} */}
+            <Button>{pages[0]}</Button>
+            <Button>{pages[1]}</Button>
+            <Button>{pages[2]}</Button>
+            <Button>{pages[3]}</Button>
+            <Button>{pages[4]}</Button>
+            <Button>{pages[5]}</Button>
+            <Button>{pages[6]}</Button>
+            <Button>{pages[7]}</Button>
           </Box>
         </Toolbar>
       </Container>

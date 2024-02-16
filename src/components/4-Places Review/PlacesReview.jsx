@@ -1,10 +1,10 @@
 import React from "react";
-import { places } from "../data";
+import { places } from "../../data";
 
 
 const PlacesReview = () => {
   return (
-    <section className="section" id="about">
+    <section className="section" id="placesReview">
       <h1 className="section-header">Places Review</h1>
       <div className="section-center about-center">
         {places.map((place) => {

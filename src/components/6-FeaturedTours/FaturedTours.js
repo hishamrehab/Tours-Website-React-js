@@ -1,6 +1,6 @@
 import React from "react";
-import Title from "./Title";
-import { tours } from "../data";
+
+import { tours } from "../../data";
 import FeturedTour from "./FeturedTour";
 const FatureTours = () => {
   return (

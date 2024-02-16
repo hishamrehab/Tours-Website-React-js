@@ -1,5 +1,5 @@
 import React from "react";
-import { tours } from "../data";
+import { tours } from "../../data";
 const FeturedTour = ({
   image,
   date,

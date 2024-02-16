@@ -1,7 +1,7 @@
 import React from "react";
-import { socialLinks } from "../data";
-import PageLinks from "./PageLinks";
-import SocialLinks from "./SocialLinks";
+import { socialLinks } from "../../data";
+import PageLinks from "../utility/PageLinks";
+import SocialLinks from "../utility/SocialLinks";
 const Footer = () => {
   return (
     <footer className="section footer" id="footer">
@@ -13,7 +13,7 @@ const Footer = () => {
           flexDirection: "row",
           justifyContent: "space-around",
           flexWrap: "wrap",
-          gap:"40px"
+          gap: "40px",
         }}
       >
         <div className="footer-content">

@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../images/palce3.jpg";
+import aboutImg from "../../images/palce3.jpg";
 import { Container } from "react-bootstrap";
 
 

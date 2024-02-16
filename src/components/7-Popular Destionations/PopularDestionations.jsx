@@ -1,12 +1,12 @@
 import React from "react";
 
-import { destionations } from "../data";
+import { destionations } from "../../data";
 
 const PopularDestionations = () => {
   return (
     <section
       className="section destinations-section"
-      id="destination"
+      id="PopularDestination"
       style={{
         width: "90%",
         marginRight: "5%",
