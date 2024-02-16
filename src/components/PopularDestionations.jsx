@@ -1,12 +1,12 @@
 import React from "react";
-import Title from "./Title";
+
 import { destionations } from "../data";
 
 const PopularDestionations = () => {
   return (
     <section
-      className="section teams"
-      id="teams"
+      className="section destinations-section"
+      id="destination"
       style={{
         width: "90%",
         marginRight: "5%",
@@ -23,23 +23,31 @@ const PopularDestionations = () => {
       >
         Tours give you the opportunity to see a lot,within a time frame
       </p>
-      {destionations.map((service) => {
+      {destionations.map((destination) => {
         return (
           <div
             style={{
               display: "flex",
               flexDirection: "row",
             }}
+            className="destinationContent"
           >
             <div>
-              <h3>{service.title1}</h3>
+              <h3
+                style={{
+                  color: "#98ABEE",
+                }}
+              >
+                {destination.title1}
+              </h3>
               <p
                 style={{
                   Width: "60%",
                   paddingRight: "10%",
                 }}
+                className="destination-desc"
               >
-                {service.desc1}
+                {destination.desc1}
               </p>
             </div>
 
@@ -51,21 +59,23 @@ const PopularDestionations = () => {
               }}
             >
               <img
-                src={service.image1}
+                src={destination.image1}
                 alt=""
                 style={{
                   paddingBottom: "30px",
                   width: "220px",
                 }}
+                className="destination-image"
               />
 
               <img
-                src={service.image2}
+                src={destination.image2}
                 alt=""
                 style={{
                   paddingTop: "40px",
                   width: "220px",
                 }}
+                className="destination-image"
               />
             </div>
           </div>

@@ -337,8 +337,6 @@ Services
   }
 }
 
-/* .populardestionations {
-} */
 /*
 =============== 
 Featured Tours
@@ -424,11 +422,37 @@ Featured Tours
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* PopularDestionations */
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .destinationContent .destination-image {
+    display: none;
+  }
+  .destinations-section {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .destinationContent {
+    padding-right: 3%;
+    padding-left: 3%;
+    margin-bottom: 15px;
+  }
+  .destinationContent .destination-desc {
+    margin-bottom: 15px;
+    margin-left: 15px;
+  }
+}
+
+/* ./PopularDestionations */
+
 /* 
 ================
 OurTeam
 =============
 */
+
 .teams-section {
   display: flex;
   flex-direction: row;
@@ -439,7 +463,7 @@ OurTeam
   padding-top: 40px;
 }
 .teams-content {
-  max-width: 30%;
+  width: 30%;
   border-right: 1px solid #333232;
   padding-right: 15px;
 }
@@ -459,6 +483,31 @@ OurTeam
   line-height: 1.6;
 }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  /* 
+.teams-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  padding-top: 40px;
+} */
+  .teams-content {
+    width: 100%;
+    padding-left: 20xp;
+    margin-bottom: 20px;
+  }
+  .teams-content .team-desc {
+    margin-left: 10px;
+  }
+  .teams-content .teams-image {
+    margin-left: 100px;
+  }
+}
+
 /*
 =============== 
 Footer
@@ -469,6 +518,12 @@ Footer
   text-align: center;
   padding-left: 2rem;
   padding-right: 2rem;
+}
+.footer .footer-link {
+  font-size: 26px;
+}
+.footer .footer-link:hover {
+  color: #8cb9bd;
 }
 .footer-links,
 .footer-icons {
@@ -491,7 +546,7 @@ Footer
 
 .footer-list .list-title {
   font-size: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .footer-list li {
@@ -512,4 +567,11 @@ Footer
 }
 .copyright span {
   margin-left: 0.5rem;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .footer-content .footer-list {
+    width: 100%;
+  }
 }

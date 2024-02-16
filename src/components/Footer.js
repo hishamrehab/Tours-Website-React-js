@@ -12,9 +12,11 @@ const Footer = () => {
           display: "flex",
           flexDirection: "row",
           justifyContent: "space-around",
+          flexWrap: "wrap",
+          gap:"40px"
         }}
       >
-        <div>
+        <div className="footer-content">
           <ul className="footer-list">
             <li className="list-title">Project</li>
             <li>Changing</li>
@@ -24,7 +26,7 @@ const Footer = () => {
           </ul>
         </div>
 
-        <div>
+        <div className="footer-content">
           <ul className="footer-list">
             <li className="list-title">Help</li>
             <li>Support</li>
@@ -32,7 +34,8 @@ const Footer = () => {
             <li>Contact Us</li>
           </ul>
         </div>
-        <div>
+
+        <div className="footer-content">
           <ul className="footer-list">
             <li className="list-title">Other</li>
             <li>Terms of Service</li>
