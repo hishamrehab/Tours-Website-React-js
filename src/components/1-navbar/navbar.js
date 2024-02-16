@@ -79,6 +79,9 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
+                "&:hover": {
+                  color: "#fff",
+                },
               }}
               href="#home"
             >
@@ -87,6 +90,9 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
+                "&:hover": {
+                  color: "#fff",
+                },
               }}
               href="#about"
             >
@@ -95,6 +101,9 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
+                "&:hover": {
+                  color: "#fff",
+                },
               }}
               href="#placesReview"
             >
@@ -103,6 +112,9 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
+                "&:hover": {
+                  color: "#fff",
+                },
               }}
               href="#services"
             >
@@ -111,6 +123,9 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
+                "&:hover": {
+                  color: "#fff",
+                },
               }}
               href="#tours"
             >
@@ -119,6 +134,9 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
+                "&:hover": {
+                  color: "#fff",
+                },
               }}
               href="#PopularDestination"
             >
@@ -127,6 +145,9 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
+                "&:hover": {
+                  color: "#fff",
+                },
               }}
               href="#team"
             >
@@ -135,6 +156,9 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
+                "&:hover": {
+                  color: "#fff",
+                },
               }}
               href="#footer"
             >
