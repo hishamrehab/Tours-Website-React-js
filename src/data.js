@@ -342,10 +342,10 @@ export const featuredtestimonials = [
     name2: "Christina Hardy",
     name3: "Jane Bennett",
     desc1:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!Lorem ipsum dolor sit amet consectetur adipisicing elit.!",
+      '"Vivamus aliquet felis eu diam ultricies congue. Morbi porta lorem nec consectetur porta. Sed quis dui elit. Pellentesque habitant morbi tristique senectus et netus et male Sed vestibulum orci"',
     desc2:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!Lorem ipsum dolor sit amet consectetur adipisicing elit.!",
+      '"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed vestibulum orci quam. Pellentesque habitant morbi tristique senectus et netus et male.""',
     desc3:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!Lorem ipsum dolor sit amet consectetur adipisicing elit.!",
+      '"In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Pellentesque habitant morbi tristique senectus et netus et male."',
   },
 ];

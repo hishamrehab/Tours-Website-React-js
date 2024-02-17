@@ -489,10 +489,15 @@ OurTeam
   flex-wrap: wrap;
   padding-top: 40px;
 }
+
 .teams-content {
   width: 30%;
   border-right: 1px solid #333232;
   padding-right: 15px;
+}
+
+.teams-content:last-child {
+  border: 0;
 }
 .teams-content img {
   width: 150px;
@@ -534,6 +539,28 @@ OurTeam
     margin-left: 100px;
   }
 }
+/* FeaturedTestimonials */
+.timonials-section {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.timonials-content {
+  width: 30%;
+}
+
+/* ./FeaturedTestimonials */
+.contactUs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+/* contact us */
+/* ./contact us */
 
 /*
 =============== 

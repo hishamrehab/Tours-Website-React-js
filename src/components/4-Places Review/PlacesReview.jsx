@@ -13,7 +13,12 @@ const PlacesReview = () => {
     <section className="section" id="placesReview">
       <h1 className="section-header">Places Review</h1>
       <Container>
-        <div className="placeReviewRow1">
+        <div
+          className="placeReviewRow1"
+          style={{
+            marginLeft: "30px",
+          }}
+        >
           <div
             className="placeReviewRow1-image"
             style={{
@@ -105,7 +110,12 @@ const PlacesReview = () => {
           </div>
         </div>
 
-        <div className="placeReviewRow1">
+        <div
+          className="placeReviewRow1"
+          style={{
+            marginLeft: "30px",
+          }}
+        >
           <div
             className="placeReviewRow1-image"
             style={{
@@ -130,7 +140,9 @@ const PlacesReview = () => {
                 transform: "translate(-50%, -50%)",
                 color: "white",
               }}
-            >Australia</p>
+            >
+              Australia
+            </p>
           </div>
 
           <div
@@ -187,7 +199,7 @@ const PlacesReview = () => {
                 color: "white",
               }}
             >
-             Aurope
+              Aurope
             </p>
           </div>
         </div>
