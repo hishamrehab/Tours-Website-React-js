@@ -16,7 +16,7 @@ const PlacesReview = () => {
         <div
           className="placeReviewRow1"
           style={{
-            marginLeft: "30px",
+            marginLeft: "35px",
           }}
         >
           <div
@@ -66,7 +66,7 @@ const PlacesReview = () => {
             />
             <p
               style={{
-                fontSize: "30px",
+                fontSize: "35px",
                 "text-align": "center",
                 position: "absolute",
                 top: "50%",
