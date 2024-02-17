@@ -254,13 +254,14 @@ HeroSection
   gap: 30px;
   margin-top: 20px;
   cursor: pointer;
-
   flex-wrap: wrap;
 }
-.placeReviewRow1 img:hover {
+
+.placeReviewRow1-image:hover {
   transform: translateY(-7px);
   transition-delay: 0.2s;
 }
+
 @media screen and (max-width: 800px) {
   .column {
     flex: 100%;
@@ -310,7 +311,7 @@ Services
   margin: auto;
 }
 .service-title {
-  font-size: 25px;
+  font-size: 28px;
   color: #102b25;
   text-align: center;
 }
@@ -318,7 +319,8 @@ Services
   max-width: 20rem;
   margin-left: auto;
   margin-right: auto;
-  font-size: 17px;
+  font-size: 18px;
+  color: #3a3939;
 }
 
 @media screen and (min-width: 576px) {

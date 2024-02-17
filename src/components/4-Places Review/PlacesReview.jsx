@@ -14,62 +14,182 @@ const PlacesReview = () => {
       <h1 className="section-header">Places Review</h1>
       <Container>
         <div className="placeReviewRow1">
-          <img
-            src={FrenchAutumn}
-            alt="FrenchAutumn"
+          <div
+            className="placeReviewRow1-image"
             style={{
-              width: "550px",
-              height: "220px",
-              borderRadius: "10px",
+              position: "relative",
             }}
-          />
+          >
+            <img
+              src={FrenchAutumn}
+              alt="FrenchAutumn"
+              style={{
+                width: "550px",
+                height: "220px",
+                borderRadius: "10px",
+              }}
+            />
+            <p
+              style={{
+                fontSize: "30px",
+                "text-align": "center",
+                position: "absolute",
+                top: "50%",
+                left: "50%",
+                transform: "translate(-50%, -50%)",
+                color: "white",
+              }}
+            >
+              North America
+            </p>
+          </div>
 
-          <img
-            src={GrandSwitzerland}
-            alt="GrandSwitzerland"
+          <div
+            className="placeReviewRow1-image"
             style={{
-              width: "220px",
-              height: "220px",
-              borderRadius: "10px",
+              position: "relative",
             }}
-          />
+          >
+            <img
+              src={GrandSwitzerland}
+              alt="GrandSwitzerland"
+              style={{
+                width: "220px",
+                height: "220px",
+                borderRadius: "10px",
+              }}
+            />
+            <p
+              style={{
+                fontSize: "30px",
+                "text-align": "center",
+                position: "absolute",
+                top: "50%",
+                left: "50%",
+                transform: "translate(-50%, -50%)",
+                color: "white",
+              }}
+            >
+              South America
+            </p>
+          </div>
 
-          <img
-            src={SeoulYour}
-            alt="SeoulYour"
+          <div
+            className="placeReviewRow1-image"
             style={{
-              width: "220px",
-              height: "220px",
-              borderRadius: "10px",
+              position: "relative",
             }}
-          />
+          >
+            <img
+              src={SeoulYour}
+              alt="SeoulYour"
+              style={{
+                width: "220px",
+                height: "220px",
+                borderRadius: "10px",
+              }}
+            />
+            <p
+              style={{
+                fontSize: "30px",
+                "text-align": "center",
+                position: "absolute",
+                top: "50%",
+                left: "50%",
+                transform: "translate(-50%, -50%)",
+                color: "white",
+              }}
+            >
+              Asia
+            </p>
+          </div>
         </div>
-        <div className="placeReviewRow1">
-          <img
-            src={DiscoverJapan}
-            style={{
-              width: "550px",
-              height: "220px",
-              borderRadius: "10px",
-            }}
-          />
-          <img
-            src={Hongkong}
-            style={{
-              width: "220px",
-              height: "220px",
-              borderRadius: "10px",
-            }}
-          />
 
-          <img
-            src={GreatBritainTravel}
+        <div className="placeReviewRow1">
+          <div
+            className="placeReviewRow1-image"
             style={{
-              width: "220px",
-              height: "220px",
-              borderRadius: "10px",
+              position: "relative",
             }}
-          />
+          >
+            <img
+              src={DiscoverJapan}
+              style={{
+                width: "550px",
+                height: "220px",
+                borderRadius: "10px",
+              }}
+            />
+            <p
+              style={{
+                fontSize: "30px",
+                "text-align": "center",
+                position: "absolute",
+                top: "50%",
+                left: "50%",
+                transform: "translate(-50%, -50%)",
+                color: "white",
+              }}
+            >Australia</p>
+          </div>
+
+          <div
+            className="placeReviewRow1-image"
+            style={{
+              position: "relative",
+            }}
+          >
+            <img
+              src={Hongkong}
+              style={{
+                width: "220px",
+                height: "220px",
+                borderRadius: "10px",
+              }}
+            />
+            <p
+              style={{
+                fontSize: "30px",
+                "text-align": "center",
+                position: "absolute",
+                top: "50%",
+                left: "50%",
+                transform: "translate(-50%, -50%)",
+                color: "white",
+              }}
+            >
+              Africa
+            </p>
+          </div>
+
+          <div
+            className="placeReviewRow1-image"
+            style={{
+              position: "relative",
+            }}
+          >
+            <img
+              src={GreatBritainTravel}
+              style={{
+                width: "220px",
+                height: "220px",
+                borderRadius: "10px",
+              }}
+            />
+            <p
+              style={{
+                fontSize: "30px",
+                "text-align": "center",
+                position: "absolute",
+                top: "50%",
+                left: "50%",
+                transform: "translate(-50%, -50%)",
+                color: "white",
+              }}
+            >
+             Aurope
+            </p>
+          </div>
         </div>
       </Container>
     </section>

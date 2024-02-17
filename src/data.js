@@ -41,7 +41,11 @@ import blog from "./images/blog-3.jpg";
 import popular from "./images/popular-2.jpg";
 import packege from "./images/packege-1.jpg";
 import popular3 from "./images/popular-3.jpg";
-import   GrandSwitzerland from "./images/Grand Switzerland.jpeg"
+import GrandSwitzerland from "./images/Grand Switzerland.jpeg";
+import gallery1 from "./images/gallery-1.jpg";
+import gallery3 from "./images/gallery-3.jpg";
+import gallery5 from "./images/gallery-5.jpg";
+
 export const pageLinks = [
   { id: 1, href: "#home", text: "home" },
   { id: 2, href: "#about", text: "about" },
@@ -298,15 +302,15 @@ export const tours = [
 export const destionations = [
   {
     id: 1,
-    image1: place20,
-    image2: place21,
+    image1: gallery1,
+    image2: gallery3,
     title1: "Teal Vaclano , Batangas",
     desc1:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!",
   },
   {
     id: 1,
-    image1: place1,
+    image1: gallery5,
     image2: place3,
     title1: "Mt. Daguldul,Batangas",
     desc1:
@@ -323,6 +327,20 @@ export const teams = [
     image1: person1,
     image2: person2,
     image3: person3,
+    desc1:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!Lorem ipsum dolor sit amet consectetur adipisicing elit.!",
+    desc2:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!Lorem ipsum dolor sit amet consectetur adipisicing elit.!",
+    desc3:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!Lorem ipsum dolor sit amet consectetur adipisicing elit.!",
+  },
+];
+
+export const featuredtestimonials = [
+  {
+    name1: "Mark Anthony",
+    name2: "Christina Hardy",
+    name3: "Jane Bennett",
     desc1:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sequi culpa commodi enim beatae dolore iste maxime, deleniti molestiae reprehenderit sapiente impedit numquam excepturi quas recusandae repudiandae optio quod rerum!Lorem ipsum dolor sit amet consectetur adipisicing elit.!",
     desc2:
