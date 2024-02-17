@@ -11,7 +11,7 @@ import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-
+import logo from "../../images/logo@2x.png";
 const pages = [
   "Home",
 
@@ -32,29 +32,11 @@ function Navbar() {
   };
 
   return (
-    <AppBar
-      position="static"
-      sx={{
-        height: "60px",
-        backgroundColor: "#5e5d5a",
-      }}
-    >
+    <AppBar position="static">
       <Container>
-        <Toolbar
-          sx={{
-            height: "60px",
-          }}
-        >
-          <Box
-            className="nav-header"
-            component="a"
-            href="#"
-            sx={{
-              fontSize: "30px",
-              color: "#C7C8CC",
-            }}
-          >
-            LandingPage
+        <Toolbar>
+          <Box className="nav-header" component="a" href="#">
+            <img src={logo} alt="GoTour" width={"60px"} height={"20px"} />
           </Box>
 
           <Box
@@ -75,10 +57,18 @@ function Navbar() {
             </IconButton>
           </Box>
 
-          <Box sx={{ display: { xs: "none", md: "flex" }, color: "white" }}>
+          <Box
+            sx={{
+              display: { xs: "none", md: "flex" },
+              color: "white",
+              fontFamily: "serif",
+            }}
+          >
             <Button
               sx={{
                 color: "white",
+                fontSize: "13px",
+
                 "&:hover": {
                   color: "#fff",
                 },
@@ -90,6 +80,7 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
+                fontSize: "13px",
                 "&:hover": {
                   color: "#fff",
                 },
@@ -101,6 +92,7 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
+                fontSize: "13px",
                 "&:hover": {
                   color: "#fff",
                 },
@@ -112,6 +104,7 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
+                fontSize: "13px",
                 "&:hover": {
                   color: "#fff",
                 },
@@ -123,6 +116,7 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
+                fontSize: "13px",
                 "&:hover": {
                   color: "#fff",
                 },
@@ -134,6 +128,7 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
+                fontSize: "13px",
                 "&:hover": {
                   color: "#fff",
                 },
@@ -145,6 +140,7 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
+                fontSize: "13px",
                 "&:hover": {
                   color: "#fff",
                 },
@@ -156,6 +152,7 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
+                fontSize: "13px",
                 "&:hover": {
                   color: "#fff",
                 },

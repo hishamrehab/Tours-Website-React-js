@@ -26,7 +26,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Open Sans", Roboto, "Helvetica Neue", sans-serif;
   background: var(--background);
   color: var(--mainColor);
   line-height: 1.5;
@@ -113,7 +113,7 @@ HeroSection
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("./images/landingPageBackGround.jpg");
+  background-image: url("./images/andrea-sonda-275985.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   padding-bottom: 60px;
@@ -165,7 +165,7 @@ HeroSection
 
 .about-img,
 .about-info {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 .about-info h3 {
   color: var(--secondColor);
@@ -189,6 +189,13 @@ HeroSection
 }
 .about-btn:hover {
   background-color: #98e0f1;
+}
+.about-img {
+  width: 500px;
+}
+
+.about-img .about-photo {
+  width: 500px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -217,7 +224,7 @@ HeroSection
     content: "";
     position: absolute;
     width: 100%;
-    height: 100%;
+    height: 90%;
     border: 0.5rem solid #e4e4de;
     box-sizing: border-box;
     top: -1.5rem;
@@ -242,6 +249,18 @@ HeroSection
   margin-bottom: 15px;
 }
 
+.placeReviewRow1 {
+  display: flex;
+  gap: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+
+  flex-wrap: wrap;
+}
+.placeReviewRow1 img:hover {
+  transform: translateY(-7px);
+  transition-delay: 0.2s;
+}
 @media screen and (max-width: 800px) {
   .column {
     flex: 100%;
@@ -264,7 +283,7 @@ Services
 */
 
 .services {
-  background-image: url("./images/images\ \(1\).jpg");
+  background-image: url("./images/slider-1.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

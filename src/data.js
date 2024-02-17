@@ -36,7 +36,12 @@ import place35 from "./images/place35.jpg";
 import person1 from "./images/person1.jpg";
 import person2 from "./images/person2.jpg";
 import person3 from "./images/person3.jpg";
-
+import rocs from "./images/rocs.jpg";
+import blog from "./images/blog-3.jpg";
+import popular from "./images/popular-2.jpg";
+import packege from "./images/packege-1.jpg";
+import popular3 from "./images/popular-3.jpg";
+import   GrandSwitzerland from "./images/Grand Switzerland.jpeg"
 export const pageLinks = [
   { id: 1, href: "#home", text: "home" },
   { id: 2, href: "#about", text: "about" },
@@ -230,7 +235,7 @@ export const places = [
 export const tours = [
   {
     id: 1,
-    image: place9,
+    image: rocs,
     date: "august 26th, 2020",
     title: "Tibet Adventure",
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
@@ -240,7 +245,7 @@ export const tours = [
   },
   {
     id: 2,
-    image: place14,
+    image: blog,
     date: "october 1th, 2020",
     title: "best of java",
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
@@ -250,7 +255,7 @@ export const tours = [
   },
   {
     id: 3,
-    image: place10,
+    image: popular,
     date: "september 15th, 2020",
     title: "explore hong kong",
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
@@ -260,7 +265,7 @@ export const tours = [
   },
   {
     id: 4,
-    image: place20,
+    image: packege,
     date: "december 5th, 2019",
     title: "kenya highlights",
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
@@ -270,7 +275,7 @@ export const tours = [
   },
   {
     id: 4,
-    image: place24,
+    image: popular3,
     date: "december 5th, 2019",
     title: "kenya highlights",
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
@@ -280,7 +285,7 @@ export const tours = [
   },
   {
     id: 4,
-    image: palce11,
+    image: GrandSwitzerland,
     date: "december 5th, 2019",
     title: "kenya highlights",
     info: ` Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque vitae tempore voluptatum maxime reprehenderit eum quod exercitationem fugit, qui corporis.`,
