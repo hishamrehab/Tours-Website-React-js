@@ -13,7 +13,7 @@ import FeaturedTestimonials from "./components/9-FeaturedTestimonials/FeaturedTe
 import ContactUs from "./components/13-contactUs/ContactUs";
 import PopularPackeges from "./components/10-PopularPackeges.jsx/PopularPackeges";
 import PopularDestionation from "./components/11-PopularDestionation/PopularDestionation";
-
+import TravellersPhotos from "./components/12-PHOTO'S FROM TRAVELLERS/TravellersPhotos";
 function App() {
   return (
     <>
@@ -23,10 +23,10 @@ function App() {
       <PlacesReview />
       <Services />
       <FatureTours />
-  
       <PopularDestionations />
       <PopularDestionation />
       <PopularPackeges />
+     <TravellersPhotos />
       <Teams />
       <FeaturedTestimonials />
       <ContactUs />

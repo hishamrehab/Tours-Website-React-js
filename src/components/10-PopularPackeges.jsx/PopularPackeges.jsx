@@ -1,116 +1,58 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import packege from "../../images/packege-1 (1).jpg";
-import { CiClock1 } from "react-icons/ci";
-import { IoPersonSharp } from "react-icons/io5";
-import { FaMapMarkerAlt } from "react-icons/fa";
-
+import PapualrPackegesContent from "./PapualrPackegesContent";
+import { papualrpackegescontent } from "../../data";
 const PopularPackeges = () => {
   return (
-    <div>
+    <div
+      style={{
+        marginTop: "170px",
+      }}
+    >
       <Container>
-        <h1>CHECKOUT OUR PACKEGES</h1>
-        <p>
+        <h1
+          style={{
+            textAlign: "center",
+          }}
+        >
+          CHECKOUT OUR PACKEGES
+        </h1>
+        <p
+          style={{
+            color: "#777",
+            textAlign: "center",
+            fontSize: "17px",
+            marginBottom: "30px",
+          }}
+        >
           Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo,
           rutrum. Vestibulum cumque laudantium. Sit ornare mollitia tenetur,
           aptent.
         </p>
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: "50px",
-            backgroundColor: "red",
-            height: "1000px",
-          }}
-        >
-          <div
-            style={{
-              backgroundColor: "blue",
-              height: "300px",
-              marginTop: "40px",
-              borderRadius: "25px",
-            }}
-          >
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                flexDirection: "row",
-                justifyContent: "space-between",
-                gap: "50px",
-              }}
-            >
-              <div>
-                <img
-                  src={packege}
-                  alt="package"
-                  style={{
-                    borderRadius: "25px",
-                  }}
-                />
-              </div>
-
-              <div>
-                <h3>EXPERIENCE THE GREAT HOLIDAY ON BEACH</h3>
-                <p>
-                  Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo
-                  maiores, est aliquet porttitor! Eaque, cras, aspernatur.
-                </p>
-                <div
-                  style={{
-                    width: "300px",
-                    height: "50px",
-                    display: "flex",
-                    justifyContent: "space-between",
-                    border: "1px solid #777",
-                    alignItems: "center",
-                    borderRadius: "20px",
-                    backgroundColor: "#FFF",
-                    color: "#000",
-                  }}
-                >
-                  <div
-                    style={{
-                      borderRight: "1px solid #777",
-                    }}
-                  >
-                    <span>
-                      <CiClock1 />
-                    </span>
-                    <span>7D/6N</span>
-                  </div>
-                  <div>
-                    <span>
-                      <IoPersonSharp />
-                    </span>
-                    <span>pax: 10</span>
-                  </div>
-                  <div>
-                    <span>
-                      <FaMapMarkerAlt />
-                    </span>
-                    <span>Malaysia</span>
-                  </div>
-                </div>
-              </div>
-
-              <div
-                style={{
-                  backgroundColor: "#40A2D8",
-                  width: "400px",
-                  height: "300px",
-                  borderRadius: "25px",
-                }}
-              >
-                <p>(25 reviews)</p>
-                <p>$750</p>
-                <p>/ per person</p>
-                <button>Book Now</button>
-              </div>
+        {papualrpackegescontent.map((content) => {
+          return (
+            <div>
+              <PapualrPackegesContent
+                image={content.image1}
+                title={content.title1}
+                reviews={content.reviews1}
+                price={content.price1}
+              />
+              <PapualrPackegesContent
+                image={content.image2}
+                title={content.title2}
+                reviews={content.reviews2}
+                price={content.price2}
+              />
+              <PapualrPackegesContent
+                image={content.image3}
+                title={content.title3}
+                reviews={content.reviews3}
+                price={content.price3}
+              />
             </div>
-          </div>
-        </div>
+          );
+        })}
       </Container>
     </div>
   );

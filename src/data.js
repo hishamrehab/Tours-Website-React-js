@@ -49,6 +49,10 @@ import popular1 from "./images/popular-1 (1).jpg";
 import popular8 from "./images/popular-8.jpg";
 import popular4 from "./images/popular-3 (1).jpg";
 
+import package1 from "./images/packege-1.jpg";
+import package2 from "./images/packege-2.jpg";
+import package3 from "./images/packege-3.jpg";
+
 export const pageLinks = [
   { id: 1, href: "#home", text: "home" },
   { id: 2, href: "#about", text: "about" },
@@ -368,5 +372,24 @@ export const populardestionation = [
     nation3: "JAPAN",
     site3: "KYOTO TEMPLE",
     desc3: "Fusce hic augue velit wisi ips quibusdam pariatur, iusto.",
+  },
+];
+
+export const papualrpackegescontent = [
+  {
+    image1: package1,
+    title1: "EXPERIENCE THE GREAT HOLIDAY ON BEACH",
+    reviews1: "25",
+    price1: "750",
+
+    image2: package2,
+    title2: "SUMMER HOLIDAY TO THE OXOLOTAN RIVER",
+    reviews2: "20",
+    price2: "550",
+
+    image3: package3,
+    title3: "SANTORINI ISLAND'S WEEKEND VACATION",
+    reviews3: "40",
+    price3: "660",
   },
 ];
