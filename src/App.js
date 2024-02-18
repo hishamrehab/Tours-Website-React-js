@@ -11,7 +11,9 @@ import PopularDestionations from "./components/7-Popular Destionations/PopularDe
 import Teams from "./components/8-Teams/Teams";
 import FeaturedTestimonials from "./components/9-FeaturedTestimonials/FeaturedTestimonials";
 import ContactUs from "./components/13-contactUs/ContactUs";
-import PopularRpackeges from "./components/11-POPULARPACKEGES/PopularRpackeges";
+import PopularPackeges from "./components/10-PopularPackeges.jsx/PopularPackeges";
+import PopularDestionation from "./components/11-PopularDestionation/PopularDestionation";
+
 function App() {
   return (
     <>
@@ -21,8 +23,10 @@ function App() {
       <PlacesReview />
       <Services />
       <FatureTours />
+  
       <PopularDestionations />
-      <PopularRpackeges />
+      <PopularDestionation />
+      <PopularPackeges />
       <Teams />
       <FeaturedTestimonials />
       <ContactUs />

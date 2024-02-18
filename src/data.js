@@ -354,7 +354,7 @@ export const featuredtestimonials = [
 ];
 // popularpackeges
 
-export const popularpackeges = [
+export const populardestionation = [
   {
     image1: popular1,
     nation1: "ITALY",

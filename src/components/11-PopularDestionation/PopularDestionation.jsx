@@ -1,8 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
-import { popularpackeges } from "../../data";
-import PopularRpackeges1 from "./PopularRpackeges1";
-const PopularRpackeges = () => {
+import { populardestionation } from "../../data";
+import PopularDestionation1 from "./PopularDestionation1";
+const PopularDestionation = () => {
   return (
     <div>
       <Container>
@@ -27,7 +27,7 @@ const PopularRpackeges = () => {
           aptent.
         </p>
 
-        {popularpackeges.map((packege) => {
+        {populardestionation.map((packege) => {
           return (
             <div
               className="popularpackeges-content"
@@ -38,21 +38,21 @@ const PopularRpackeges = () => {
                 alignItems: "center",
               }}
             >
-              <PopularRpackeges1
+              <PopularDestionation1
                 image={packege.image1}
                 desc={packege.desc1}
                 nation={packege.nation1}
                 site={packege.site1}
               />
 
-              <PopularRpackeges1
+              <PopularDestionation1
                 image={packege.image2}
                 desc={packege.desc2}
                 nation={packege.nation2}
                 site={packege.site2}
               />
 
-              <PopularRpackeges1
+              <PopularDestionation1
                 image={packege.image3}
                 desc={packege.desc3}
                 nation={packege.nation3}
@@ -66,4 +66,4 @@ const PopularRpackeges = () => {
   );
 };
 
-export default PopularRpackeges;
+export default PopularDestionation;

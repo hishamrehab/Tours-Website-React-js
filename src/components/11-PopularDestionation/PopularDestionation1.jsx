@@ -1,6 +1,6 @@
 import React from "react";
 
-const PopularRpackeges1 = ({ image, nation, site, desc }) => {
+const PopularDestionation1 = ({ image, nation, site, desc }) => {
   return (
     <div
       className="popularpackeges-content1"
@@ -23,7 +23,7 @@ const PopularRpackeges1 = ({ image, nation, site, desc }) => {
           bottom: "20px",
           backgroundColor: "white",
           padding: "13px",
-          paddingBottom:"0",
+
           marginRight: "50px",
           marginLeft: "15px",
           borderRadius: "30px",
@@ -51,4 +51,4 @@ const PopularRpackeges1 = ({ image, nation, site, desc }) => {
   );
 };
 
-export default PopularRpackeges1;
+export default PopularDestionation1;
