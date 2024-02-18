@@ -26,7 +26,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: "Open Sans", Roboto, "Helvetica Neue", sans-serif;
+  /* font-family: "Open Sans", Roboto, "Helvetica Neue", sans-serif; */
+  font-family: "Roboto", sans-serif;;
   background: var(--background);
   color: var(--mainColor);
   line-height: 1.5;

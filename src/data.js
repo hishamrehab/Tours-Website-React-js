@@ -45,6 +45,9 @@ import GrandSwitzerland from "./images/Grand Switzerland.jpeg";
 import gallery1 from "./images/gallery-1.jpg";
 import gallery3 from "./images/gallery-3.jpg";
 import gallery5 from "./images/gallery-5.jpg";
+import popular1 from "./images/popular-1 (1).jpg";
+import popular8 from "./images/popular-8.jpg";
+import popular4 from "./images/popular-3 (1).jpg";
 
 export const pageLinks = [
   { id: 1, href: "#home", text: "home" },
@@ -347,5 +350,23 @@ export const featuredtestimonials = [
       '"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed vestibulum orci quam. Pellentesque habitant morbi tristique senectus et netus et male.""',
     desc3:
       '"In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Pellentesque habitant morbi tristique senectus et netus et male."',
+  },
+];
+// popularpackeges
+
+export const popularpackeges = [
+  {
+    image1: popular1,
+    nation1: "ITALY",
+    site1: "SAN MIGUEL",
+    desc1: "Fusce hic augue velit wisi ips quibusdam pariatur, iusto.",
+    image2: popular8,
+    nation2: "DUBAI",
+    site2: "BURJ KHALIFA",
+    desc2: "Fusce hic augue velit wisi ips quibusdam pariatur, iusto.",
+    image3: popular4,
+    nation3: "JAPAN",
+    site3: "KYOTO TEMPLE",
+    desc3: "Fusce hic augue velit wisi ips quibusdam pariatur, iusto.",
   },
 ];
