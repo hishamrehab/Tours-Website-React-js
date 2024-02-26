@@ -21,16 +21,16 @@ function App() {
       <Hero />
       <About />
       <PlacesReview />
-      {/* <Services /> */}
-      {/* <FatureTours /> */}
-      {/* <PopularDestionations /> */}
-      {/* <PopularDestionation /> */}
-      {/* <PopularPackeges /> */}
-      {/* <TravellersPhotos /> */}
-      {/* <Teams /> */}
-      {/* <FeaturedTestimonials /> */}
-      {/* <ContactUs /> */}
-      {/* <Footer /> */}
+      <Services />
+      <FatureTours />
+      <PopularDestionations />
+      <PopularDestionation />
+      <PopularPackeges />
+      <TravellersPhotos />
+      <Teams />
+      <FeaturedTestimonials />
+      <ContactUs />
+      <Footer />
     </>
   );
 }
