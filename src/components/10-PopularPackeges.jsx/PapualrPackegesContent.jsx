@@ -54,10 +54,11 @@ const PapualrPackegesContent = ({ image, reviews, price, title }) => {
 
           <div
             style={{
-              width: "100%",
-              height: "40px",
+              width: "300px",
+              height: "35px",
               display: "flex",
-              justifyContent: "space-between",
+              // justifyContent: "space-between",
+
               border: "1px solid #777",
               alignItems: "center",
               borderRadius: "20px",
