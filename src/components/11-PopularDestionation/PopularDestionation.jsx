@@ -36,6 +36,7 @@ const PopularDestionation = () => {
                 gap: "30px",
                 justifyContent: "space-between",
                 alignItems: "center",
+                flexWrap: "wrap",
               }}
             >
               <PopularDestionation1

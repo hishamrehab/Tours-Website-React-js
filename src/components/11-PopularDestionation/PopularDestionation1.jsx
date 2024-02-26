@@ -6,6 +6,8 @@ const PopularDestionation1 = ({ image, nation, site, desc }) => {
       className="popularpackeges-content1"
       style={{
         position: "relative",
+       
+     
       }}
     >
       <img

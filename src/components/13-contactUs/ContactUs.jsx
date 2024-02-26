@@ -11,7 +11,16 @@ const ContactUs = () => {
       }}
     >
       <Container>
-        <div className="contactUs" >
+        <div
+          className="contactUs"
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+            gap: "30px",
+            flexWrap: "wrap",
+          }}
+        >
           <div>
             <p>Call TO Action</p>
             <h1>READY FOR UNFORGATABLE TRAVEL. REMEMBER US!</h1>
@@ -21,6 +30,7 @@ const ContactUs = () => {
               tenetur, aptent.
             </p>
           </div>
+
           <div>
             <button
               style={{

@@ -28,8 +28,20 @@ const FeaturedTestimonials = () => {
         </p>
         {featuredtestimonials.map((timonial) => {
           return (
-            <div className="timonials-section">
-              <div className="timonials-content">
+            <div
+              className="timonials-section"
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                flexWrap: "wrap",
+                gap: "20px",
+              }}
+            >
+              <div
+                className="timonials-content"
+            
+              >
                 <p
                   className="timonial-desc"
                   style={{
@@ -91,12 +103,6 @@ const FeaturedTestimonials = () => {
                   {timonial.name3}
                 </h4>
               </div>
-              <img
-                src={awerds}
-                style={{
-                  margin: "auto",
-                }}
-              />
             </div>
           );
         })}
