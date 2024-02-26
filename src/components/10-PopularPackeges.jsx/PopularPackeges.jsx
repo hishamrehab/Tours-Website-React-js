@@ -7,6 +7,7 @@ const PopularPackeges = () => {
     <div
       style={{
         marginTop: "170px",
+        marginBottom: "20px",
       }}
     >
       <Container>
@@ -31,26 +32,36 @@ const PopularPackeges = () => {
         </p>
         {papualrpackegescontent.map((content) => {
           return (
-            <div>
-              <PapualrPackegesContent
-                image={content.image1}
-                title={content.title1}
-                reviews={content.reviews1}
-                price={content.price1}
-              />
-              <PapualrPackegesContent
-                image={content.image2}
-                title={content.title2}
-                reviews={content.reviews2}
-                price={content.price2}
-              />
-              <PapualrPackegesContent
-                image={content.image3}
-                title={content.title3}
-                reviews={content.reviews3}
-                price={content.price3}
-              />
-            </div>
+            <Container>
+              <div>
+                <div>
+                  <PapualrPackegesContent
+                    image={content.image1}
+                    title={content.title1}
+                    reviews={content.reviews1}
+                    price={content.price1}
+                  />
+                </div>
+
+                <div>
+                  {" "}
+                  <PapualrPackegesContent
+                    image={content.image2}
+                    title={content.title2}
+                    reviews={content.reviews2}
+                    price={content.price2}
+                  />
+                </div>
+                <div>
+                  <PapualrPackegesContent
+                    image={content.image3}
+                    title={content.title3}
+                    reviews={content.reviews3}
+                    price={content.price3}
+                  />
+                </div>
+              </div>
+            </Container>
           );
         })}
       </Container>

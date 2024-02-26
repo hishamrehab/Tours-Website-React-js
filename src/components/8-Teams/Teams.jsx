@@ -7,9 +7,9 @@ const Teams = () => {
       className="section teams"
       id="team"
       style={{
-        width: "90%",
-        marginRight: "5%",
-        marginLeft: "5%",
+        width: "85%",
+        marginRight: "7.5%",
+        marginLeft: "7.5%",
       }}
     >
       <h1 className="section-header">OurTeam</h1>

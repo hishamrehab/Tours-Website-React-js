@@ -28,81 +28,72 @@ const FeaturedTestimonials = () => {
         </p>
         {featuredtestimonials.map((timonial) => {
           return (
-            <div
-              className="timonials-section"
-              style={{
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "space-between",
-                flexWrap: "wrap",
-                gap: "20px",
-              }}
-            >
-              <div
-                className="timonials-content"
+            <div className="timonials-section">
+   
+                <div className="timonials-content">
+                  <p
+                    className="timonial-desc"
+                    style={{
+                      fontFamily: "Cursive",
+                      color: "#777",
+                    }}
+                  >
+                    {timonial.desc1}
+                  </p>
+
+                  <h4
+                    className="timonial-name"
+                    style={{
+                      fontSize: "20px",
+                      color: "#000",
+                    }}
+                  >
+                    {timonial.name1}
+                  </h4>
+                </div>
+
+                <div className="timonials-content">
+                  <p
+                    className="timonial-desc"
+                    style={{
+                      fontFamily: "Cursive",
+                      color: "#777",
+                    }}
+                  >
+                    {timonial.desc2}
+                  </p>
+                  <h4
+                    className="tetimonial-name"
+                    style={{
+                      fontSize: "20px",
+                      color: "#000",
+                    }}
+                  >
+                    {timonial.name2}
+                  </h4>
+                </div>
+
+                <div className="timonials-content">
+                  <p
+                    className="team-desc"
+                    style={{
+                      fontFamily: "Cursive",
+                      color: "#777",
+                    }}
+                  >
+                    {timonial.desc2}
+                  </p>
+                  <h4
+                    className="timonial-name"
+                    style={{
+                      fontSize: "20px",
+                      color: "#000",
+                    }}
+                  >
+                    {timonial.name3}
+                  </h4>
+                </div>
             
-              >
-                <p
-                  className="timonial-desc"
-                  style={{
-                    fontFamily: "Cursive",
-                    color: "#777",
-                  }}
-                >
-                  {timonial.desc1}
-                </p>
-                <h4
-                  className="timonial-name"
-                  style={{
-                    fontSize: "20px",
-                    color: "#000",
-                  }}
-                >
-                  {timonial.name1}
-                </h4>
-              </div>
-
-              <div className="timonials-content">
-                <p
-                  className="timonial-desc"
-                  style={{
-                    fontFamily: "Cursive",
-                    color: "#777",
-                  }}
-                >
-                  {timonial.desc2}
-                </p>
-                <h4
-                  className="tetimonial-name"
-                  style={{
-                    fontSize: "20px",
-                    color: "#000",
-                  }}
-                >
-                  {timonial.name2}
-                </h4>
-              </div>
-
-              <div className="timonials-content">
-                <p
-                  className="team-desc"
-                  style={{
-                    fontFamily: "Cursive",
-                    color: "#777",
-                  }}
-                >
-                  {timonial.desc2}
-                </p>
-                <h4
-                  className="timonial-name"
-                  style={{
-                    fontSize: "20px",
-                    color: "#000",
-                  }}
-                >
-                  {timonial.name3}
-                </h4>
-              </div>
             </div>
           );
         })}

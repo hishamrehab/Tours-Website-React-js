@@ -6,8 +6,7 @@ const PopularDestionation1 = ({ image, nation, site, desc }) => {
       className="popularpackeges-content1"
       style={{
         position: "relative",
-       
-     
+        margin: "auto",
       }}
     >
       <img
@@ -25,7 +24,6 @@ const PopularDestionation1 = ({ image, nation, site, desc }) => {
           bottom: "20px",
           backgroundColor: "white",
           padding: "13px",
-
           marginRight: "50px",
           marginLeft: "15px",
           borderRadius: "30px",

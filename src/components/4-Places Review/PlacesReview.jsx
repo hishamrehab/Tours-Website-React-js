@@ -1,5 +1,5 @@
 import React from "react";
-import { places } from "../../data";
+
 import FrenchAutumn from "../../images/French Autumn.jpg";
 import GrandSwitzerland from "../../images/Grand Switzerland.jpeg";
 import DiscoverJapan from "../../images/Discover Japan.jpg";
@@ -7,18 +7,14 @@ import SeoulYour from "../../images/Seoul Your.jpg";
 import Hongkong from "../../images/Hong Kong.jpg";
 import GreatBritainTravel from "../../images/Great Britain Travel.jpg";
 import { Container } from "react-bootstrap";
+import { Box } from "@mui/material";
 
 const PlacesReview = () => {
   return (
     <section className="section" id="placesReview">
       <h1 className="section-header">Places Review</h1>
       <Container>
-        <div
-          className="placeReviewRow1"
-          style={{
-            marginLeft: "35px",
-          }}
-        >
+        <div className="placeReviewRow1">
           <div
             className="placeReviewRow1-image"
             style={{
@@ -26,10 +22,16 @@ const PlacesReview = () => {
             }}
           >
             <img
+              className="palces-img"
               src={FrenchAutumn}
               alt="FrenchAutumn"
               style={{
-                width: "550px",
+                width: {
+                  md: "550px",
+                  xs: "100%",
+                  sm: "100%",
+                },
+
                 height: "220px",
                 borderRadius: "10px",
               }}
@@ -53,13 +55,23 @@ const PlacesReview = () => {
             className="placeReviewRow1-image"
             style={{
               position: "relative",
+              width: {
+                md: "220px",
+                sm: "100%",
+                xa: "100%",
+              },
             }}
           >
             <img
+              className="palces-img"
               src={GrandSwitzerland}
               alt="GrandSwitzerland"
               style={{
-                width: "220px",
+                width: {
+                  md: "100%",
+                  sm: "100%",
+                  xa: "100%",
+                },
                 height: "220px",
                 borderRadius: "10px",
               }}
@@ -83,13 +95,23 @@ const PlacesReview = () => {
             className="placeReviewRow1-image"
             style={{
               position: "relative",
+              width: {
+                md: "220px",
+                sm: "100%",
+                xa: "100%",
+              },
             }}
           >
             <img
+              className="palces-img"
               src={SeoulYour}
               alt="SeoulYour"
               style={{
-                width: "220px",
+                width: {
+                  md: "100%",
+                  sm: "100%",
+                  xa: "100%",
+                },
                 height: "220px",
                 borderRadius: "10px",
               }}
@@ -113,19 +135,33 @@ const PlacesReview = () => {
         <div
           className="placeReviewRow1"
           style={{
-            marginLeft: "30px",
+            marginLeft: {
+              md: "30px",
+              xs: "10px",
+              sm: "10px",
+            },
           }}
         >
           <div
             className="placeReviewRow1-image"
             style={{
               position: "relative",
+              width: {
+                xs: "100%",
+                sm: "100%",
+                md: "550px",
+              },
             }}
           >
             <img
+              className="palces-img"
               src={DiscoverJapan}
               style={{
-                width: "550px",
+                width: {
+                  md: "100%",
+                  sm: "100%",
+                  xa: "100%",
+                },
                 height: "220px",
                 borderRadius: "10px",
               }}
@@ -152,9 +188,15 @@ const PlacesReview = () => {
             }}
           >
             <img
+              className="palces-img"
               src={Hongkong}
               style={{
-                width: "220px",
+                width: {
+                  md: "220px",
+                  sm: "100%",
+                  xa: "100%",
+                },
+
                 height: "220px",
                 borderRadius: "10px",
               }}
@@ -181,9 +223,14 @@ const PlacesReview = () => {
             }}
           >
             <img
+              className="palces-img"
               src={GreatBritainTravel}
               style={{
-                width: "220px",
+                width: {
+                  md: "220px",
+                  sm: "100%",
+                  xa: "100%",
+                },
                 height: "220px",
                 borderRadius: "10px",
               }}
