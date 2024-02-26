@@ -11,7 +11,7 @@ const TravellersPhotos = () => {
       style={{
         marginTop: "150px",
         marginLeft: "7%",
-        marginRight: "5%",
+        marginRight: "7%",
       }}
     >
       <Container>
@@ -42,13 +42,14 @@ const TravellersPhotos = () => {
             flexWrap: "wrap",
             alignContent: "center",
             gap: "30px",
+            marginLeft: "25px",
           }}
         >
           <div>
             <img
               src={image4}
               alt="image"
-              width={"270px"}
+              width={"280px"}
               height={"300px"}
               style={{
                 borderRadius: "25px",
@@ -60,7 +61,7 @@ const TravellersPhotos = () => {
             <img
               src={image1}
               alt="image"
-              width={"270px"}
+              width={"280px"}
               height={"300px"}
               style={{
                 borderRadius: "25px",
@@ -71,7 +72,7 @@ const TravellersPhotos = () => {
           <div>
             <img
               src={image5}
-              width={"270px"}
+              width={"280px"}
               height={"300px"}
               style={{
                 borderRadius: "25px",
@@ -82,7 +83,7 @@ const TravellersPhotos = () => {
           <div>
             <img
               src={image2}
-              width={"270px"}
+              width={"280px"}
               height={"300px"}
               style={{
                 borderRadius: "25px",
