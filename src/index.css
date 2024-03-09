@@ -385,7 +385,6 @@ HeroSection
     width: 100%;
   }
 }
-
 /* ./ PlacesReview */
 
 /*
@@ -402,15 +401,18 @@ Services
 
 .main-services {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
   flex-wrap: wrap;
+  gap: 20px;
 }
+
 .service {
-  max-width: 90%;
-  margin-right: auto;
-  margin-left: auto;
+  width: 30%;
   margin-bottom: 20px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 .service-icon {
   color: #e78895;
@@ -422,16 +424,16 @@ Services
   margin: auto;
 }
 .service-title {
-  font-size: 28px;
+  font-size: 30px;
   color: #102b25;
-  text-align: center;
+  padding-bottom: 5px;
 }
 .service-text {
   max-width: 20rem;
   margin-left: auto;
   margin-right: auto;
   font-size: 18px;
-  color: #3a3939;
+  color: #302a2a;
 }
 
 @media screen and (min-width: 576px) {
@@ -473,6 +475,9 @@ Services
   .service-icon {
     margin-left: 40%;
   }
+  .service-title {
+text-align: center;
+}
 }
 
 /*

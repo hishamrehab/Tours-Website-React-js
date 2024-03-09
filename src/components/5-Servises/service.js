@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 
 const Service = ({ icon, title, text }) => {
   return (
-    <Container>
+ 
       <article className="service">
         <span className="service-icon">
           <i className={icon}></i>
@@ -13,7 +13,7 @@ const Service = ({ icon, title, text }) => {
           <p className="service-text">{text}</p>
         </div>
       </article>
-    </Container>
+
   );
 };
 
