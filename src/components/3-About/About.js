@@ -6,12 +6,8 @@ import { Container } from "react-bootstrap";
 const About = () => {
   return (
     <Container>
-    
       <section className="section about-section" id="about">
         <h1 className="about-section-header section-header">AboutUs</h1>
-
-
-
 
         <div className="section-center about-center">
          

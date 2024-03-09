@@ -3,14 +3,14 @@ import { Container } from "react-bootstrap";
 
 const ContactUs = () => {
   return (
-    <div
-      style={{
-        background: "#40A2D8",
-        paddingTop: "150px",
-        paddingBottom: "150px",
-      }}
-    >
-      <Container>
+    <Container>
+      <div
+        style={{
+          background: "#40A2D8",
+          paddingTop: "150px",
+          paddingBottom: "150px",
+        }}
+      >
         <div
           className="contactUs"
           style={{
@@ -52,8 +52,8 @@ const ContactUs = () => {
             </button>
           </div>
         </div>
-      </Container>
-    </div>
+      </div>
+    </Container>
   );
 };
 

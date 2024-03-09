@@ -122,11 +122,13 @@ HeroSection
   background-size: 100% 100%;
   padding-bottom: 60px;
   padding-top: 20px;
+  margin: auto;
 }
 .hero-banner {
   text-align: center;
   color: var(--mainColor);
   padding: 0 3rem;
+  margin: auto;
 }
 .hero-banner h1 {
   text-transform: capitalize;
@@ -171,7 +173,7 @@ HeroSection
 
 .about-img-container,
 .about-info {
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.6rem;
 }
 
 .about-info .about-desc h3 {
@@ -184,7 +186,7 @@ HeroSection
   font-size: 0.9rem;
   margin-bottom: 20px;
   margin-right: 40px;
-  padding-right: 50px;
+  padding-right: 100px;
 }
 
 .about-btn {
@@ -251,7 +253,7 @@ HeroSection
   }
 
   .section-center .about-img-container {
-    max-width: 100%;
+    max-width: 90%;
     padding-left: 5%;
   }
 
@@ -261,11 +263,14 @@ HeroSection
   }
   .about-info {
     padding-left: 5%;
+    padding-left: 23px;
+    max-width: 100%;
   }
 
   .about-img-container .about-img {
     width: 100%;
     margin: auto;
+    padding-bottom: 15px;
   }
 
   .about-info .about-desc h3 {
@@ -279,6 +284,7 @@ HeroSection
     margin-bottom: 20px;
     margin-right: 40px;
     padding-right: 50px;
+    width: 100%;
   }
 
   .about-btn {
@@ -307,7 +313,7 @@ HeroSection
 
 .placeReviewRow1 {
   display: flex;
-  gap: 30px;
+  gap: 50px;
   margin-top: 20px;
   cursor: pointer;
   flex-wrap: wrap;
@@ -315,17 +321,68 @@ HeroSection
   padding-left: 5%;
 }
 
+.placeReviewRow1 .placeReviewRow1-image {
+  width: 300px;
+  height: 250px;
+  color: #fff;
+  position: relative;
+}
+
+.placeReviewRow1 .placeReviewRow1-image .palces-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.placeReviewRow1 .placeReviewRow1-image .palces-desc {
+  position: absolute;
+  font-size: 35px;
+  text-align: center;
+
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* color: #fff; */
+}
+
 .placeReviewRow1-image:hover {
   transform: translateY(-7px);
   transition-delay: 0.2s;
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (max-width: 600px) {
-  placeReviewRow1 {
-    width: 100px;
+@media only screen and (max-width: 768px) {
+  .placeReviewRow1 .placeReviewRow1-image {
+    min-width: 90%;
   }
-  placeReviewRow1 .placeReviewRow1-image .palces-img {
+
+  .placeReviewRow1 .placeReviewRow1-image .palces-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .placeReviewRow1 .placeReviewRow1-image {
+    width: 350px;
+  }
+
+  .placeReviewRow1 .placeReviewRow1-image .palces-img {
+    width: 100%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+  .placeReviewRow1 {
+    gap: 25px;
+  }
+  .placeReviewRow1 .placeReviewRow1-image {
+    width: 300px;
+  }
+
+  .placeReviewRow1 .placeReviewRow1-image .palces-img {
+    width: 100%;
   }
 }
 
@@ -582,9 +639,6 @@ OurTeam
   padding-top: 40px;
 } */
   .teams-content {
-    width: 100%;
-    padding-left: 20xp;
-    margin-bottom: 20px;
     border: none;
   }
   .teams-content .team-desc {

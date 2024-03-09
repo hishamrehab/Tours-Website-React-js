@@ -6,15 +6,14 @@ import IconButton from "@mui/material/IconButton";
 import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
-import Container from "@mui/material/Container";
 import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import logo from "../../images/logo@2x.png";
+import { Container } from "react-bootstrap";
 const pages = [
   "Home",
-
   "About",
   "PlacesReview",
   "Services",
@@ -32,8 +31,8 @@ function Navbar() {
   };
 
   return (
-    <AppBar position="static">
-      <Container>
+    <Container>
+      <AppBar position="static">
         <Toolbar>
           <Box className="nav-header" component="a" href="#">
             <img src={logo} alt="GoTour" width={"60px"} height={"20px"} />
@@ -45,7 +44,7 @@ function Navbar() {
             }}
           ></Box>
 
-          <Box sx={{ display: { xs: "flex", md: "none" } }}>
+          <Box sx={{ display: { xs: "flex", sm: "flex", md: "none" } }}>
             <Box flexGrow={1}></Box>
 
             <IconButton onClick={handleOpenNavMenu} color="inherit">
@@ -59,15 +58,15 @@ function Navbar() {
 
           <Box
             sx={{
-              display: { xs: "none", md: "flex" },
+              display: { xs: "none", sm: "none", md: "flex" },
               color: "white",
-              fontFamily: "serif",
+              fontFamily: "Gill Sans , sans-serif",
             }}
           >
             <Button
               sx={{
                 color: "white",
-                fontSize: "13px",
+                fontSize: "14px",
 
                 "&:hover": {
                   color: "#fff",
@@ -80,7 +79,7 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
-                fontSize: "13px",
+                fontSize: "14px",
                 "&:hover": {
                   color: "#fff",
                 },
@@ -92,7 +91,7 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
-                fontSize: "13px",
+                fontSize: "14px",
                 "&:hover": {
                   color: "#fff",
                 },
@@ -104,7 +103,7 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
-                fontSize: "13px",
+                fontSize: "14px",
                 "&:hover": {
                   color: "#fff",
                 },
@@ -116,7 +115,7 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
-                fontSize: "13px",
+                fontSize: "14px",
                 "&:hover": {
                   color: "#fff",
                 },
@@ -128,7 +127,7 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
-                fontSize: "13px",
+                fontSize: "14px",
                 "&:hover": {
                   color: "#fff",
                 },
@@ -140,7 +139,7 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
-                fontSize: "13px",
+                fontSize: "14px",
                 "&:hover": {
                   color: "#fff",
                 },
@@ -152,7 +151,7 @@ function Navbar() {
             <Button
               sx={{
                 color: "white",
-                fontSize: "13px",
+                fontSize: "14px",
                 "&:hover": {
                   color: "#fff",
                 },
@@ -163,8 +162,8 @@ function Navbar() {
             </Button>
           </Box>
         </Toolbar>
-      </Container>
-    </AppBar>
+      </AppBar>
+    </Container>
   );
 }
 export default Navbar;
