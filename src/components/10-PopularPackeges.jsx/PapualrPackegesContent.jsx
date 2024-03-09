@@ -60,12 +60,11 @@ const PapualrPackegesContent = ({ image, reviews, price, title }) => {
           <div
             className="package-second-content"
             style={{
-              
-              width: "300px",
+              width: { xs: "100%", sm: "100%", md: "300px" },
               height: "50px",
               display: "flex",
-              justifyContent:"space-between",
-             flexWrap:"wrap",
+              justifyContent: "space-between",
+
               border: "1px solid #777",
               alignItems: "center",
               borderRadius: "20px",
@@ -79,15 +78,15 @@ const PapualrPackegesContent = ({ image, reviews, price, title }) => {
             <div
               style={{
                 borderRight: "1px solid #777",
-                marginLeft: "15px",
-                paddingRight: "10px",
+                marginLeft: "10px",
+                paddingRight: "5px",
+                width: "100px",
               }}
             >
               <span
                 style={{
                   color: "#40A2D8",
-                  marginRight: "3px",
-                  paddingRight: "2px",
+                  marginRight: "1px",
                 }}
               >
                 <FaClock />
@@ -98,14 +97,14 @@ const PapualrPackegesContent = ({ image, reviews, price, title }) => {
             <div
               style={{
                 borderRight: "1px solid #777",
-                marginLeft: "15px",
-                paddingRight: "10px",
+
+                width: "120px",
               }}
             >
               <span
                 style={{
                   color: "#40A2D8",
-                  marginRight: "3px",
+                  marginLeft: "3px",
                   paddingRight: "5px",
                 }}
               >
@@ -116,27 +115,18 @@ const PapualrPackegesContent = ({ image, reviews, price, title }) => {
 
             <div
               style={{
-                marginLeft: "15px",
-                paddingRight: "10px",
+                marginLeft: "5px",
+                width: "100px",
               }}
             >
               <span
                 style={{
                   color: "#40A2D8",
-                  marginRight: "3px",
-                  paddingRight: "5px",
                 }}
               >
                 <FaMapMarkerAlt />
               </span>
-              <span
-                style={{
-                  marginRight: "10px",
-                  paddingRight: "5px",
-                }}
-              >
-                Malaysia
-              </span>
+              <span>Malaysia</span>
             </div>
           </div>
         </div>
@@ -148,6 +138,7 @@ const PapualrPackegesContent = ({ image, reviews, price, title }) => {
             borderRadius: "25px",
             position: "relative",
             flex: "1",
+            minWidth: "250px",
           }}
           className="package-content-items2"
         >

@@ -13,6 +13,8 @@ const PopularDestionations = () => {
             textAlign: "center",
             marginBottom: "30px",
             fontSize: "20px",
+            paddingRight: "10px",
+            paddingLeft: "10px",
           }}
         >
           Tours give you the opportunity to see a lot,within a time frame
