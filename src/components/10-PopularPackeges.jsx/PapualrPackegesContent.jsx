@@ -9,6 +9,7 @@ const PapualrPackegesContent = ({ image, reviews, price, title }) => {
   return (
     <Container>
       <div
+        className="PapualrPackegesContent"
         style={{
           marginTop: "40px",
           borderRadius: "25px",
@@ -18,18 +19,19 @@ const PapualrPackegesContent = ({ image, reviews, price, title }) => {
           justifyContent: "space-between",
           gap: "50px",
           flexWrap: "wrap",
-          paddingRight: "5%",
-          paddingLeft: "5%",
+          margin: "auto",
+          marginBottom: "30px",
         }}
       >
-        <div style={{ flex: "1", height: "300px" }}>
+        <div
+          style={{ flex: "1", height: "300px" }}
+          className="package-image-content"
+        >
           <img
             src={image}
             alt="package"
             style={{
               borderRadius: "15px",
-              width: "100%",
-              height: "100%",
             }}
           />
         </div>
@@ -38,33 +40,40 @@ const PapualrPackegesContent = ({ image, reviews, price, title }) => {
           style={{
             flex: "1",
             flexGrow: "1",
-            height: "100%",
+            height: "260px",
             paddingTop: "30px",
           }}
+          className="package-content-items1"
         >
           <h4>{title}</h4>
           <p
             style={{
               color: "#777",
+              fontSize: "17px",
+              paddingLeft: "20px",
+              marginTop: "20px",
             }}
           >
             Laoreet, voluptatum nihil dolor esse quaerat mattis explicabo
-            maiores, est aliquet porttitor! Eaque, cras, aspernatur.
           </p>
 
           <div
+            className="package-second-content"
             style={{
-              width: "330px",
+              
+              width: "300px",
               height: "50px",
               display: "flex",
-              // justifyContent: "space-between",
-
+              justifyContent:"space-between",
+             flexWrap:"wrap",
               border: "1px solid #777",
               alignItems: "center",
               borderRadius: "20px",
               backgroundColor: "#FFF",
               color: "#000",
               boxShadow: "3px 3px #888888",
+              marginTop: "40px",
+              marginLeft: "20px",
             }}
           >
             <div
@@ -140,6 +149,7 @@ const PapualrPackegesContent = ({ image, reviews, price, title }) => {
             position: "relative",
             flex: "1",
           }}
+          className="package-content-items2"
         >
           <p
             style={{

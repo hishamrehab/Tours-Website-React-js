@@ -8,8 +8,7 @@ const FeaturedTestimonials = () => {
       <div
         style={{
           backgroundColor: "white",
-          paddingTop: "50px",
-          paddingBottom: "50px",
+          padding: "50px",
         }}
       >
         <h1

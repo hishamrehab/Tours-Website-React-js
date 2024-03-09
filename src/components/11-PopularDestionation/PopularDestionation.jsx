@@ -33,10 +33,12 @@ const PopularDestionation = () => {
               className="popularpackeges-content"
               style={{
                 display: "flex",
-                gap: "30px",
+                gap: "20px",
                 justifyContent: "space-between",
+                flexDirection: "row",
                 alignItems: "center",
                 flexWrap: "wrap",
+               
               }}
             >
               <PopularDestionation1

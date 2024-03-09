@@ -7,8 +7,7 @@ const ContactUs = () => {
       <div
         style={{
           background: "#40A2D8",
-          paddingTop: "150px",
-          paddingBottom: "150px",
+          padding: "100px",
         }}
       >
         <div

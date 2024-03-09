@@ -24,6 +24,9 @@ const PopularPackeges = () => {
             textAlign: "center",
             fontSize: "17px",
             marginBottom: "30px",
+            paddingRight: "15px",
+            paddingLeft: "15px",
+            marginTop: "20px",
           }}
         >
           Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo,
@@ -44,7 +47,6 @@ const PopularPackeges = () => {
                 </div>
 
                 <div>
-                  {" "}
                   <PapualrPackegesContent
                     image={content.image2}
                     title={content.title2}

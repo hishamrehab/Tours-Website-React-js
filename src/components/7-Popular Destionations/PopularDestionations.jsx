@@ -6,20 +6,12 @@ import { Container } from "react-bootstrap";
 const PopularDestionations = () => {
   return (
     <Container>
-      <section
-        className="section destinations-section"
-        id="PopularDestination"
-        style={{
-          width: "90%",
-          marginRight: "5%",
-          marginLeft: "5%",
-        }}
-      >
+      <section className="section destinations-section" id="PopularDestination">
         <h1 className="section-header popular-header">Popular Destionations</h1>
         <p
           style={{
             textAlign: "center",
-            marginBottom: "20px",
+            marginBottom: "30px",
             fontSize: "20px",
           }}
         >
@@ -39,12 +31,12 @@ const PopularDestionations = () => {
                   style={{
                     color: "#98ABEE",
                   }}
+                  className="destination-title"
                 >
                   {destination.title1}
                 </h3>
                 <p
                   style={{
-                    Width: "60%",
                     paddingRight: "10%",
                   }}
                   className="destination-desc"
