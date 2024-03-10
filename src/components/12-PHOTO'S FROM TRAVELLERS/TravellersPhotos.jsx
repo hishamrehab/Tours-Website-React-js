@@ -40,15 +40,16 @@ const TravellersPhotos = () => {
             flexDirection: "row",
             flexWrap: "wrap",
             alignContent: "center",
-            gap: "30px",
+            gap: "50px",
             marginLeft: "40px",
+          
           }}
         >
           <div className="Travelles-image">
             <img
               src={image4}
               alt="image"
-              width={"240px"}
+              width={"250px"}
               height={"300px"}
               style={{
                 borderRadius: "25px",
@@ -59,7 +60,7 @@ const TravellersPhotos = () => {
             <img
               src={image1}
               alt="image"
-              width={"240px"}
+              width={"250px"}
               height={"300px"}
               style={{
                 borderRadius: "25px",
@@ -69,7 +70,7 @@ const TravellersPhotos = () => {
           <div className="Travelles-image">
             <img
               src={image5}
-              width={"240px"}
+              width={"250px"}
               height={"300px"}
               style={{
                 borderRadius: "25px",
@@ -80,7 +81,7 @@ const TravellersPhotos = () => {
           <div className="Travelles-image">
             <img
               src={image2}
-              width={"240px"}
+              width={"250px"}
               height={"300px"}
               style={{
                 borderRadius: "25px",

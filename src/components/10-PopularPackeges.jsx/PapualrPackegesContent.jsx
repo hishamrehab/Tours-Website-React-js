@@ -73,6 +73,7 @@ const PapualrPackegesContent = ({ image, reviews, price, title }) => {
               boxShadow: "3px 3px #888888",
               marginTop: "40px",
               marginLeft: "20px",
+              maxWidth: "350px",
             }}
           >
             <div
@@ -86,7 +87,7 @@ const PapualrPackegesContent = ({ image, reviews, price, title }) => {
               <span
                 style={{
                   color: "#40A2D8",
-                  marginRight: "1px",
+                  marginRight: "5px",
                 }}
               >
                 <FaClock />
@@ -105,7 +106,7 @@ const PapualrPackegesContent = ({ image, reviews, price, title }) => {
                 style={{
                   color: "#40A2D8",
                   marginLeft: "3px",
-                  paddingRight: "5px",
+                  marginRight: "5px",
                 }}
               >
                 <IoPersonSharp />
@@ -122,6 +123,7 @@ const PapualrPackegesContent = ({ image, reviews, price, title }) => {
               <span
                 style={{
                   color: "#40A2D8",
+                  marginRight: "5px",
                 }}
               >
                 <FaMapMarkerAlt />
