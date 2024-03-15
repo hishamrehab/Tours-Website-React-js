@@ -26,13 +26,13 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  /* font-family: "Open Sans", Roboto, "Helvetica Neue", sans-serif; */
   font-family: "Roboto", sans-serif;
   background: var(--background);
   color: var(--mainColor);
   line-height: 1.5;
   font-size: 0.875rem;
   overflow-x: hidden;
+  background-color: var(--background);
 }
 ul {
   list-style-type: none;
@@ -71,11 +71,22 @@ a {
 }
 /* Navbar */
 
+.navbar-link:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+.nav-header-drawer img {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
 .red {
   border: 1px solid red;
+  color: #bbb9b9;
 }
-.nav-header:hover {
-  color: white;
+.nav-header-drawer img {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 /* Medium devices (landscape tablets, 768px and up) */
 
@@ -105,6 +116,9 @@ a {
   }
 }
 
+.MuiBox-root.css-k008qs {
+  height: 55px;
+}
 /*
 =============== 
 HeroSection
@@ -790,7 +804,7 @@ OurTeam
 
 .contactUs {
   width: 100%;
-  height: 300px;
+  height: 350px;
   padding-top: 50px;
   padding-right: 30px;
   padding-left: 30px;
@@ -798,8 +812,13 @@ OurTeam
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 40px;
+  gap: 30px;
 }
+.contactUs-container {
+  width: 80%;
+  color: #fff;
+}
+
 .contactUs-button {
   margin-top: 40px;
   color: #fff;
@@ -814,6 +833,9 @@ OurTeam
 @media only screen and (max-width: 600px) {
   .contactUs {
     height: 500px;
+  }
+  .contactUs-container {
+    width: 100%;
   }
 }
 
@@ -896,6 +918,11 @@ Footer
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
   .footer-content .footer-list {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footer .footer-links {
     width: 100%;
   }
 }
