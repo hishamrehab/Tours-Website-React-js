@@ -5,56 +5,45 @@ const ContactUs = () => {
   return (
     <Container>
       <div
+        className="contactUs"
         style={{
-          background: "#40A2D8",
-
-          paddingTop: "100px",
-          height: "400px",
-          width: "100%",
-          paddingRight: "25px",
-          paddingLeft: "25px",
-          paddingBottom: "25px",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+          gap: "30px",
+          flexWrap: "wrap",
         }}
       >
-        <div
-          className="contactUs"
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
-            gap: "30px",
-            flexWrap: "wrap",
-          }}
-        >
-          <div>
-            <p>Call TO Action</p>
-            <h1>READY FOR UNFORGATABLE TRAVEL. REMEMBER US!</h1>
-            <p>
-              Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec
-              nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia
-              tenetur, aptent.
-            </p>
-          </div>
+        <div>
+          <p>Call TO Action</p>
+          <h1>READY FOR UNFORGATABLE TRAVEL. REMEMBER US!</h1>
+          <p>
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec
+            nemo, rutrum. Vestibulum cumque laudantium. Sit ornare mollitia
+            tenetur, aptent.
+          </p>
+        </div>
 
-          <div>
-            <button
-              style={{
-                padding: "15px",
-                border: "1px solid #fff",
-                borderRadius: "20px",
-                width: "200px",
-                color: "#fff",
-                backgroundColor: "#40A2D8",
-                fontSize: "17px",
-                paddingTop: "12px",
-                "&:hover": {
-                  background: "#40A2E3",
-                },
-              }}
-            >
-              Contact Us!
-            </button>
-          </div>
+        <div>
+          <button
+            className="contactUs-button"
+            style={{
+              padding: "15px",
+              border: "1px solid #fff",
+              borderRadius: "20px",
+              width: "200px",
+             
+              fontSize: "19px",
+              paddingTop: "12px",
+              marginBottom: "40px",
+            
+              hover: {
+                backgroundColor: "#40A2E3",
+              },
+            }}
+          >
+            Contact Us!
+          </button>
         </div>
       </div>
     </Container>
