@@ -7,7 +7,13 @@ const ContactUs = () => {
       <div
         style={{
           background: "#40A2D8",
-          padding: "100px",
+
+          paddingTop: "100px",
+          height: "400px",
+          width: "100%",
+          paddingRight: "25px",
+          paddingLeft: "25px",
+          paddingBottom: "25px",
         }}
       >
         <div
@@ -41,9 +47,8 @@ const ContactUs = () => {
                 backgroundColor: "#40A2D8",
                 fontSize: "17px",
                 paddingTop: "12px",
-                marginTop: "20px",
-                hover: {
-                  backgroundColor: "#40A2E3",
+                "&:hover": {
+                  background: "#40A2E3",
                 },
               }}
             >
